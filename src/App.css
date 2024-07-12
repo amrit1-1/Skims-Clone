@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "YEEZY";
+  src: local("YEEZY"), url("./fonts/yeezy_tstar-bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+}
+
+.container {
+  text-align: center;
+  font-family: "YEEZY";
+  color: rgb(106, 86, 71);
+}
+
+.col{
+  border: 0 solid black;
+}
+
+.row{
+  border: 0 solid black;
+}
+
+.main-header {
+  padding: 5px;
+  padding-bottom: 50px;
+}
+
+.header-logo {
+  height: 25px;
+  text-align: left;
+  position: absolute;
+  left: 20px;
+}
+
+.header-buttons {
+  text-align: right;
+  position: absolute;
+  height: 40px;
+  right: 20px;
+}
+
+.secondary-header {
+  background-color: rgb(188, 161, 148);
+  padding-top: 4px;
+  text-align: center;
+  color: white;
+  margin-bottom: 2%;
+  font-family: "YEEZY";
+}
+
+.main-image {
+  height: 400px;
+  margin-bottom: 5%; 
+}
+
+.secondary-images {
+  width: 450px;
+  margin-bottom: 15%;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
+.item img {
+  height: 200px;
+}
+
+.item p {
+  text-decoration-line: underline;
+  margin: 5%;
+}
+
+.text-element {
+  margin: 10%;
+}
+
+.pic-element {
+  position:relative;
+  max-width: 600px;
+}
+
+.secondary-pic-element {
+  position:relative;
+  max-width:300px;
+}
+
+.text-on-image {
+  text-align: left;
+  color: white;
+  position:absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 20%;
+}
+
+.text-on-image p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-on-image button {
+  background-color: rgb(223, 210, 194);
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer {
+  padding-top: 5%;
+  text-align: center;
+  font-family: "YEEZY";
+  color: rgb(106, 86, 71);
+  background-color: rgb(244, 237, 227);
+}
+
+.footer-titles {
+  margin-bottom: 4%;
+}
+
+.footer-options {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-size:xx-large;
+}
